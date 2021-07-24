@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [yahoo login Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="emailID" value="wannalikeme_sagar@yahoo.com"/>
+  <parameter name="url" value="https://login.yahoo.com/"/>
+  <test parallel="none" name="yahoo Test(failed)">
+    <parameter name="emailID" value="wannalikeme_sagar@yahoo.com"/>
+    <parameter name="url" value="https://login.yahoo.com/"/>
+    <classes>
+      <class name="com.parameter.parametertestclass">
+        <methods>
+          <include name="yahooLoginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameter.parametertestclass -->
+    </classes>
+  </test> <!-- yahoo Test(failed) -->
+</suite> <!-- Failed suite [yahoo login Suite] -->

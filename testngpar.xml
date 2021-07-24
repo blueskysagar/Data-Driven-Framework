@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sagar Parameterization Test">
+   <test name="LoginTest">
+      <parameter name="browser" value="chrome"/>
+      <parameter name="username" value="blueskysagar01@gmail.com"/>
+      <parameter name="password" value="Bharatbimala90"/>
+      <classes>
+         <class name="testngsessions.loginTest"/>
+      </classes>
+   </test>
+</suite>
